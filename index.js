@@ -60,6 +60,7 @@ async function fetchUserWeatherInfo(coordinates) {
     // grant container invisible
     grantAccessContainer.classList.remove("active");
     // loader visible
+    
     loadingScreen.classList.add("active");
 
     // API call

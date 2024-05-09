@@ -15,6 +15,8 @@
 .wrapper{
     width:100vw;
     height:100vh;
+    min-height: 100vh;
+    overflow-x: hidden;
     color: var(--colorLight2);
     background-image: linear-gradient(160deg, #112d4e 0%, #3f72af 100%);;
 }
@@ -98,10 +100,14 @@ h1 {
 
 .loading-container.active{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .loading-container p{
-    text-transform: uppercase;
+    font-style: italic;
+
 }
 
 .user-info-container{
